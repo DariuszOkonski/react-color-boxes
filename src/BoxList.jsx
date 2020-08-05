@@ -11,8 +11,16 @@ class BoxList extends Component {
                 { width: 12, height: 7, color: "blue" }
             ]
         }
+
+        this.create = this.create.bind(this);
     }
     
+    create(newBox) {
+        this.setState(prevState => ({
+            boxes: [...prevState.boxes, newBox]
+        }));
+    }
+
     render() { 
         const boxes = this.state.boxes.map(box =>
                 <Box width={box.width} height={box.height} color={box.color} />
@@ -21,7 +29,7 @@ class BoxList extends Component {
         return ( 
             <div>
                 <h1>Color Box Maker Thingy</h1>
-                <NewBoxForm/>
+                <NewBoxForm create={this.create}/>
                 {
                     boxes
                 }
