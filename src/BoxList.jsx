@@ -7,14 +7,23 @@ class BoxList extends Component {
         super(props);
         this.state = {
             boxes: [
-                { width: 10, height: 5, color: "orange" },
-                { width: 12, height: 7, color: "blue" }
+                { width: 10, height: 5, color: "orange", id: 1 },
+                { width: 12, height: 7, color: "blue", id: 2 }
             ]
         }
 
         this.create = this.create.bind(this);
+        this.remove = this.remove.bind(this);
     }
     
+    remove(id) {
+        const boxes = this.state.boxes.filter(box => box.id !== id);
+
+        this.setState({
+            boxes
+        })
+    }
+
     create(newBox) {
         this.setState({
             boxes: [...this.state.boxes, newBox]
@@ -23,7 +32,13 @@ class BoxList extends Component {
 
     render() { 
         const boxes = this.state.boxes.map(box =>
-                <Box width={box.width} height={box.height} color={box.color} />
+                <Box 
+                    width={box.width} 
+                    height={box.height} 
+                    color={box.color}
+                    id={box.id}
+                    removeBox={this.remove} 
+                />
             )
 
         return ( 
