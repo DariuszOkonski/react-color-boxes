@@ -1,2 +1,0 @@
-(this["webpackJsonp01-color-box-maker"]=this["webpackJsonp01-color-box-maker"]||[]).push([[0],[,,,function(e,n,t){e.exports=t(10)},,,,,function(e,n,t){},function(e,n,t){},function(e,n,t){"use strict";t.r(n);var o=t(0),r=t.n(o),a=t(2),c=t.n(a);t(8),t(9);var l=function(){return r.a.createElement("div",{className:"App"},r.a.createElement("h1",null,"Hello"))};c.a.render(r.a.createElement(r.a.StrictMode,null,r.a.createElement(l,null)),document.getElementById("root"))}],[[3,1,2]]]);
-//# sourceMappingURL=main.9e78dabc.chunk.js.map

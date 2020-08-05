@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/react-color-boxes/static/css/main.5f361e03.chunk.css",
-    "main.js": "/react-color-boxes/static/js/main.9e78dabc.chunk.js",
-    "main.js.map": "/react-color-boxes/static/js/main.9e78dabc.chunk.js.map",
+    "main.js": "/react-color-boxes/static/js/main.9e1d52b3.chunk.js",
+    "main.js.map": "/react-color-boxes/static/js/main.9e1d52b3.chunk.js.map",
     "runtime-main.js": "/react-color-boxes/static/js/runtime-main.8fe3027a.js",
     "runtime-main.js.map": "/react-color-boxes/static/js/runtime-main.8fe3027a.js.map",
-    "static/js/2.0680e083.chunk.js": "/react-color-boxes/static/js/2.0680e083.chunk.js",
-    "static/js/2.0680e083.chunk.js.map": "/react-color-boxes/static/js/2.0680e083.chunk.js.map",
+    "static/js/2.ddfebac8.chunk.js": "/react-color-boxes/static/js/2.ddfebac8.chunk.js",
+    "static/js/2.ddfebac8.chunk.js.map": "/react-color-boxes/static/js/2.ddfebac8.chunk.js.map",
     "index.html": "/react-color-boxes/index.html",
-    "precache-manifest.638ee12fd3831b8fc372428a44b4af4e.js": "/react-color-boxes/precache-manifest.638ee12fd3831b8fc372428a44b4af4e.js",
+    "precache-manifest.ced1a0499fd413e8443327706c50d58e.js": "/react-color-boxes/precache-manifest.ced1a0499fd413e8443327706c50d58e.js",
     "service-worker.js": "/react-color-boxes/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/react-color-boxes/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.0680e083.chunk.js.LICENSE.txt": "/react-color-boxes/static/js/2.0680e083.chunk.js.LICENSE.txt"
+    "static/js/2.ddfebac8.chunk.js.LICENSE.txt": "/react-color-boxes/static/js/2.ddfebac8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8fe3027a.js",
-    "static/js/2.0680e083.chunk.js",
+    "static/js/2.ddfebac8.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.9e78dabc.chunk.js"
+    "static/js/main.9e1d52b3.chunk.js"
   ]
 }
