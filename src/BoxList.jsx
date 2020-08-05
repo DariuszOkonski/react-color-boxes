@@ -16,9 +16,9 @@ class BoxList extends Component {
     }
     
     create(newBox) {
-        this.setState(prevState => ({
-            boxes: [...prevState.boxes, newBox]
-        }));
+        this.setState({
+            boxes: [...this.state.boxes, newBox]
+        })
     }
 
     render() { 
