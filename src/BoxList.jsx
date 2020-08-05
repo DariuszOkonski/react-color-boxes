@@ -29,7 +29,7 @@ class BoxList extends Component {
         return ( 
             <div>
                 <h1>Color Box Maker Thingy</h1>
-                <NewBoxForm create={this.create}/>
+                <NewBoxForm createBox={this.create}/>
                 {
                     boxes
                 }

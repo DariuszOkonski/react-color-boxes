@@ -21,7 +21,7 @@ class NewBoxForm extends Component {
     handleSubmit(evt) {
         evt.preventDefault();
 
-        this.props.create(this.state);
+        this.props.createBox(this.state);
 
         this.setState({
             height: "",
@@ -41,6 +41,7 @@ class NewBoxForm extends Component {
                         name="height"
                         onChange={this.handleChange}
                         value={this.state.height}
+                        required
                     />
                 </div>
                 <div>
@@ -51,6 +52,7 @@ class NewBoxForm extends Component {
                         name="width"
                         onChange={this.handleChange}
                         value={this.state.width}
+                        required
                     />
                 </div>
                 <div>
@@ -61,6 +63,7 @@ class NewBoxForm extends Component {
                         name="color"
                         onChange={this.handleChange}
                         value={this.state.color}
+                        required
                     />
                 </div>
                 <button>Add Square!</button>
