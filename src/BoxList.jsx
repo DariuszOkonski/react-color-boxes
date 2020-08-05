@@ -17,10 +17,8 @@ class BoxList extends Component {
     }
     
     remove(id) {
-        const boxes = this.state.boxes.filter(box => box.id !== id);
-
         this.setState({
-            boxes
+            boxes: this.state.boxes.filter(box => box.id !== id)
         })
     }
 
@@ -38,6 +36,7 @@ class BoxList extends Component {
                     color={box.color}
                     id={box.id}
                     removeBox={this.remove} 
+                    key={box.id}
                 />
             )
 
