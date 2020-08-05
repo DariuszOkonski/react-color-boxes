@@ -21,16 +21,18 @@ class NewBoxForm extends Component {
     handleSubmit(evt) {
         evt.preventDefault();
 
+        this.props.create(this.state);
+
         this.setState({
-            height: 0,
-            width: 0,
+            height: "",
+            width: "",
             color: ""
         })
     }
 
     render() { 
         return ( 
-            <form>
+            <form onSubmit={this.handleSubmit}>
                 <div>
                     <label htmlFor="height">Height: </label>
                     <input 
